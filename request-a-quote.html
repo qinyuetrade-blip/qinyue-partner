@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Request a Quote | Qinyue Global</title>
+  <meta name="description" content="Tell us what you need. Whether you have a drawing, sample, product link or simply an idea, we'll help you identify suitable sourcing and manufacturing options in China.">
+  <link rel="canonical" href="https://partner.qinyueglobal.com/request-a-quote.html">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a href="/" class="logo" aria-label="Qinyue Global Home"><img src="images/logo.png" alt="Qinyue Global" height="40"></a>
+      <nav class="nav">
+        <div class="nav-item"><a href="/" class="nav-link">Home</a></div>
+        <div class="nav-item"><a href="products.html" class="nav-link">Products</a></div>
+        <div class="nav-item"><a href="services.html" class="nav-link">Services</a></div>
+        <div class="nav-item"><a href="projects.html" class="nav-link">Projects</a></div>
+        <div class="nav-item"><a href="about.html" class="nav-link">About</a></div>
+        <div class="nav-item"><a href="insights.html" class="nav-link">Insights</a></div>
+        <div class="nav-item"><a href="contact.html" class="nav-link">Contact</a></div>
+      </nav>
+      <div class="header-cta">
+        <a href="https://wa.me/8618138804578" class="header-whatsapp" target="_blank" rel="noopener">WA</a>
+        <a href="request-a-quote.html" class="btn btn-primary">Start Your Project</a>
+      </div>
+      <button class="mobile-toggle" aria-label="Menu"><svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+    </div>
+    <div class="mobile-menu">
+      <a href="/" class="mobile-nav-link">Home</a>
+      <a href="products.html" class="mobile-nav-link">Products</a>
+      <a href="services.html" class="mobile-nav-link">Services</a>
+      <a href="contact.html" class="mobile-nav-link">Contact</a>
+      <a href="request-a-quote.html" class="btn btn-primary w-full" style="margin-top:1rem;">Start Your Project</a>
+    </div>
+  </header>
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumb"><a href="/">Home</a> / Request a Quote</nav>
+        <h1>Request a Quote</h1>
+        <p>Tell us what you need. Whether you have a drawing, sample, product link or simply an idea, we'll help you identify suitable sourcing and manufacturing options in China.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container" style="max-width:800px;">
+        <form id="quote-form" action="#" method="POST" enctype="multipart/form-data">
+          <div class="form-section">
+            <h3>01 — Contact Information</h3>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Full Name <span class="required">*</span></label>
+                <input type="text" name="full_name" class="form-control" required>
+              </div>
+              <div class="form-group">
+                <label>Company Name</label>
+                <input type="text" name="company" class="form-control">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Business Email <span class="required">*</span></label>
+                <input type="email" name="email" class="form-control" required>
+              </div>
+              <div class="form-group">
+                <label>WhatsApp / Phone</label>
+                <input type="text" name="phone" class="form-control" placeholder="+86 or country code">
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Country / Region <span class="required">*</span></label>
+              <input type="text" name="country" class="form-control" required>
+            </div>
+          </div>
+          <div class="form-section">
+            <h3>02 — Project Type</h3>
+            <p class="text-muted" style="font-size:0.875rem;margin-bottom:1rem;">Select all that apply</p>
+            <div class="form-check"><input type="checkbox" name="project_type[]" value="Product Sourcing" id="pt1"><label for="pt1">Product Sourcing</label></div>
+            <div class="form-check"><input type="checkbox" name="project_type[]" value="OEM Manufacturing" id="pt2"><label for="pt2">OEM Manufacturing</label></div>
+            <div class="form-check"><input type="checkbox" name="project_type[]" value="ODM Product Development" id="pt3"><label for="pt3">ODM Product Development</label></div>
+            <div class="form-check"><input type="checkbox" name="project_type[]" value="Product Development" id="pt4"><label for="pt4">Product Development</label></div>
+            <div class="form-check"><input type="checkbox" name="project_type[]" value="Supplier Sourcing" id="pt5"><label for="pt5">Supplier Sourcing</label></div>
+            <div class="form-check"><input type="checkbox" name="project_type[]" value="Supplier Verification" id="pt6"><label for="pt6">Supplier Verification</label></div>
+            <div class="form-check"><input type="checkbox" name="project_type[]" value="Quality Control" id="pt7"><label for="pt7">Quality Control</label></div>
+            <div class="form-check"><input type="checkbox" name="project_type[]" value="Other" id="pt8"><label for="pt8">Other</label></div>
+          </div>
+          <div class="form-section">
+            <h3>03 — Product Information</h3>
+            <div class="form-group">
+              <label>Product Name <span class="required">*</span></label>
+              <input type="text" name="product_name" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label>Product Category</label>
+              <select name="category" class="form-control">
+                <option value="">Select category</option>
+                <option>Industrial & Mechanical</option>
+                <option>Sports & Outdoor</option>
+                <option>Consumables & Commercial Supplies</option>
+                <option>Consumer & Lifestyle</option>
+                <option>Electronics & Smart Products</option>
+                <option>Custom & Other Products</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Product Description <span class="required">*</span></label>
+              <textarea name="description" class="form-control" required placeholder="Describe the product, key features, materials, intended use..."></textarea>
+            </div>
+          </div>
+          <div class="form-section">
+            <h3>04 — Product Reference (Optional)</h3>
+            <p class="text-muted" style="font-size:0.875rem;margin-bottom:1rem;">Upload photo, drawing, CAD, PDF specification or provide a product link. Max 10 MB per file. Formats: JPG, PNG, PDF, DWG, STEP, XLSX, DOCX.</p>
+            <div class="form-group">
+              <label>File Upload</label>
+              <input type="file" name="files[]" class="form-control" multiple accept=".jpg,.jpeg,.png,.pdf,.dwg,.step,.stp,.xlsx,.docx">
+            </div>
+            <div class="form-group">
+              <label>Product Link / Reference URL</label>
+              <input type="url" name="product_link" class="form-control" placeholder="https://...">
+            </div>
+          </div>
+          <div class="form-section">
+            <h3>05 — Quantity & Details</h3>
+            <div class="form-group">
+              <label>Quantity</label>
+              <select name="quantity" class="form-control">
+                <option value="">Select</option>
+                <option>Prototype / Sample</option>
+                <option>1–100 pcs</option>
+                <option>100–1,000 pcs</option>
+                <option>1,000–10,000 pcs</option>
+                <option>10,000+ pcs</option>
+                <option>Not Sure</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Target Price (optional)</label>
+                <input type="text" name="target_price" class="form-control">
+              </div>
+              <div class="form-group">
+                <label>Material (optional)</label>
+                <input type="text" name="material" class="form-control">
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Additional Project Details</label>
+              <textarea name="details" class="form-control" placeholder="Certification requirements, packaging/branding needs, timeline, etc."></textarea>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg w-full" data-track="form_submit">Submit Request</button>
+          <p class="text-muted text-center" style="margin-top:1rem;font-size:0.875rem;">Or contact us directly: <a href="mailto:sales@qinyueglobal.com">sales@qinyueglobal.com</a> · <a href="https://wa.me/8618138804578" target="_blank" rel="noopener">WhatsApp +86 181 3880 4578</a></p>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom" style="border:none;padding-top:0;">
+        <span>© Qinyue Trading (Shenzhen) Co., Ltd. All Rights Reserved.</span>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
